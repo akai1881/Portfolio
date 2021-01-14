@@ -1,0 +1,28 @@
+* {
+    color: #e2e2e2;
+}
+
+body {
+    background: #4776E6;
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.title {
+    color: #141c3a;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: 'Changa', sans-serif;
+
+    &_white {
+        color: #e2e2e2;
+    }
+}
+
+@import "blocks/intro";
+@import "blocks/skills";
+@import "blocks/works";
+@import "blocks/footer";
+@import 'media';

@@ -1,0 +1,58 @@
+.footer {
+    padding: 20px 0;
+    background-color: #6430d4;
+
+    &__wrapper {
+        margin: 0 auto;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__link {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        margin-right: 30px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: .4s linear;
+
+        .fa {
+            color: #ffffff;
+            transition: .4s linear;
+        }
+
+        &:hover {
+            text-decoration: none;
+            background-color: #fff;
+        }
+
+        &:hover .fa-facebook {
+            text-decoration: none;
+            color: #4267B2;
+        }
+
+        &:hover .fa-instagram {
+            text-decoration: none;
+            color: #E1306C;
+        }
+
+        &:hover .fa-linkedin {
+            text-decoration: none;
+            color: #2867b2;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
